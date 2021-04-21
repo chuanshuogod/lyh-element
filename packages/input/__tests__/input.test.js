@@ -29,7 +29,7 @@ describe('lg-input', () => {
   test('input-snapshot', () => {
     const wrapper = mount(input, {
       propsData: {
-        type: 'text',
+        type: 'password',
         value: 'admin'
       }
     })
